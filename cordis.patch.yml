@@ -10,6 +10,8 @@
 
           Apply these guidelines when creating or redesigning landing pages, portfolios, and editorial/brand websites. They are contextual, not a fixed visual theme. Do not force them onto dashboards, data tables, or multi-step product workflows; follow the user's actual request and the existing product design system.
 
+          When the design-taste-frontend skill is available and the task fits this scope, load it with the skill tool before implementation for the full design workflow.
+
           ## Read the brief first
           Before coding, infer page kind, audience, vibe, references, existing brand assets, and quiet constraints such as accessibility, regulation, or trust. State one concise Design Read identifying the page, audience, visual language, and likely design-system direction. Ask a focused question only when a missing decision materially changes the result; otherwise make a defensible choice and proceed.
 
