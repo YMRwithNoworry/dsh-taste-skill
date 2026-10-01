@@ -20,6 +20,16 @@ Version 1.0.2 fixes the missing runtime entry in 1.0.0/1.0.1. Upgrade explicitly
 dsh plugin --profile web add dsh-taste-skill@1.0.2
 ```
 
+### Registry fallback and loading failures
+
+If npm returns 404 for 1.0.2 or the installed plugin still reports 1.0.0/1.0.1, install the tested runtime fix from a pinned GitHub commit instead:
+
+```bash
+dsh plugin --profile web add "github:YMRwithNoworry/dsh-taste-skill#8a3fb4d4ca6be808f5913adb803ae3c9c842704e"
+```
+
+Restart DSH after replacing an existing package. Refreshing the browser alone does not clear the host module cache. Versions 1.0.0/1.0.1 lack the runtime entry and cannot load as Cordis plugins; avoid reinstalling them while registry publication is pending. The pinned GitHub dependency persists across subsequent dependency installs.
+
 ## Development
 
 ```bash
