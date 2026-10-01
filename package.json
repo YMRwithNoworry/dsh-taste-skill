@@ -1,0 +1,43 @@
+{
+  "name": "dsh-taste-skill",
+  "version": "1.0.1",
+  "description": "Taste Skill for DeepSeek Harness: context-aware, anti-template frontend design guidance",
+  "license": "MIT",
+  "author": "dsh-taste-skill contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YMRwithNoworry/dsh-taste-skill.git"
+  },
+  "homepage": "https://github.com/YMRwithNoworry/dsh-taste-skill#readme",
+  "bugs": {
+    "url": "https://github.com/YMRwithNoworry/dsh-taste-skill/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "skills/taste-skill/SKILL.md",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "design",
+    "frontend",
+    "taste-skill"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

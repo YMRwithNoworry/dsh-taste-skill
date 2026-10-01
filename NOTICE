@@ -1,0 +1,4 @@
+This package includes and adapts the Taste Skill frontend design guidance from:
+https://github.com/Leonxlnx/taste-skill
+
+Upstream copyright and MIT license terms are preserved in LICENSE. The DSH bundle policy in cordis.patch.yml is a concise adaptation for system-prompt injection.

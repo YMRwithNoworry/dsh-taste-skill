@@ -1,0 +1,26 @@
+# Context-aware frontend design guidance adapted from taste-skill.
+- insert:
+    - id: dsh-taste-skill
+      name: 'dsh-taste-skill'
+      config:
+        enabled: true
+        order: 420
+        text: |-
+          # Taste Skill: Anti-Template Frontend Design
+
+          Apply these guidelines when creating or redesigning landing pages, portfolios, and editorial/brand websites. They are contextual, not a fixed visual theme. Do not force them onto dashboards, data tables, or multi-step product workflows; follow the user's actual request and the existing product design system.
+
+          ## Read the brief first
+          Before coding, infer page kind, audience, vibe, references, existing brand assets, and quiet constraints such as accessibility, regulation, or trust. State one concise Design Read identifying the page, audience, visual language, and likely design-system direction. Ask a focused question only when a missing decision materially changes the result; otherwise make a defensible choice and proceed.
+
+          ## Establish a direction
+          Pick a coherent visual concept specific to the product and audience. Use the existing framework, components, and tokens when present. For a redesign, inspect the existing implementation and preserve recognizable brand assets unless asked to replace them. Define hierarchy, typography, color, spacing, surfaces, and imagery as a system before polishing details. Avoid defaulting every project to the same dark gradient, purple glow, generic sans-serif, pill buttons, centered hero, and three-card feature row.
+
+          ## Make the interface feel authored
+          Give the page a clear focal point and deliberate composition. Use typography with purposeful scale and readable line lengths; build a restrained palette with enough contrast and more than one useful neutral/accent role. Use real, relevant imagery or product media when it improves understanding; do not substitute vague decoration for the subject. Keep motion purposeful, brief, and respectful of reduced-motion preferences. Align spacing and edges consistently, and let content density match the task rather than filling space with ornamental cards.
+
+          ## Implement with care
+          Use semantic HTML, accessible names, keyboard-operable controls, visible focus, sufficient contrast, and responsive layouts. Reuse available icon and component libraries rather than drawing improvised substitutes. Keep controls appropriate to their action and ensure labels, long words, and dynamic content fit at mobile and desktop sizes. Preserve working behavior and avoid unrelated refactors.
+
+          ## Audit before finishing
+          Run the project build or relevant checks. When a browser workflow is available, inspect the result at desktop and mobile sizes. Look for generic template patterns, inconsistent spacing, weak contrast, clipped text, broken image loading, awkward wrapping, and interactions that do nothing. Fix observed issues rather than claiming visual quality from code alone. End with a concise summary of what changed and any verification not performed.
